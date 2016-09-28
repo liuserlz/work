@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<table>
+	<#list fileList.keySet() as key>
+		<tr>
+			<a href="${fileList.get(key)}">${key}</a>
+		</tr>
+	</#list>
+	</table>
+</body>
+</html>
